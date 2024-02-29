@@ -8,7 +8,21 @@ public class Truck implements Vehicle{
         this.type = type;
         this.weeks = weeks;
     }
+ public String getType() {
+        return type;
+    }
 
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public int getWeeks() {
+        return weeks;
+    }
+
+    public void setWeeks(int weeks) {
+        this.weeks = weeks;
+    }
 
     @Override
     public double calculateRentalCost() {
