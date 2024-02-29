@@ -10,7 +10,21 @@ public class Car implements Vehicle{
 
 
 
+ public String getModel() {
+        return model;
+    }
 
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public int getDays() {
+        return days;
+    }
+
+    public void setDays(int days) {
+        this.days = days;
+    }
 
 //
 
